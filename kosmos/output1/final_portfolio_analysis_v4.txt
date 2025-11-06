@@ -1,0 +1,105 @@
+================================================================================
+FINAL PORTFOLIO ANALYSIS v4
+Comparative Analysis of v3 vs v4 Rankings
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total candidates analyzed: 120
+Top 100 selected for submission v4
+
+Key updates:
+  - Reclassified 2 Lead-Opt candidates from Medium to Low risk
+    (Variant_01_HT5, Variant_01_HT2)
+  - Confirmed 3 Ankyrin candidates as High risk with structural data
+    (Ankyrin_022, Ankyrin_026, Ankyrin_031)
+
+
+================================================================================
+1. STRATEGIC COMPOSITION
+--------------------------------------------------------------------------------
+
+Strategy               v3 Count   v4 Count     Change
+--------------------------------------------------
+Lead-Opt                     37         38         +1
+DeNovo-Ortho                 14         16         +2
+DeNovo-Allo                  49         46         -3
+
+================================================================================
+2. RISK PROFILE
+--------------------------------------------------------------------------------
+
+Total risk penalty:
+  v3: 117
+  v4: 63
+  Change: -54 (improvement)
+
+Average risk penalty:
+  v3: 1.1700
+  v4: 0.6300
+  Change: -0.5400 (improvement)
+
+Candidates with aggregation flags:
+  v3: 19
+  v4: 22
+  Change: +3
+
+Risk penalty distribution:
+Penalty           v3 Count   v4 Count     Change
+---------------------------------------------
+0                       14         48        +34
+1                       61         41        -20
+2                       19         11         -8
+3                        6          0         -6
+
+================================================================================
+3. SCORE DISTRIBUTION
+--------------------------------------------------------------------------------
+
+Score statistics:
+Metric                         v3           v4       Change
+--------------------------------------------------------
+Mean                     0.266077     0.377817    +0.111739
+Median                   0.314788     0.358159    +0.043371
+Min                     -0.134441     0.065559    +0.200000
+Max                      1.000000     1.000000    +0.000000
+Std Dev                  0.258892     0.237945    -0.020948
+
+================================================================================
+4. KEY CANDIDATE MOVEMENTS
+--------------------------------------------------------------------------------
+
+Lead-Opt candidates promoted (Medium → Low risk):
+  Variant_01_HT5: NOT IN v3 → v4 rank 80 (score: 0.148265)
+  Variant_01_HT2: NOT IN v3 → v4 rank 85 (score: 0.124885)
+
+Ankyrin candidates (confirmed High risk, no penalty change):
+  Ankyrin_022: v3 rank 99 → v4 rank 28 (improvement: +71, score: 0.472439)
+  Ankyrin_026: v3 rank >100 → EXCLUDED from v4
+  Ankyrin_031: v3 rank 50 → v4 rank 4 (improvement: +46, score: 0.915434)
+
+================================================================================
+5. CANDIDATES DISPLACED FROM TOP 100
+--------------------------------------------------------------------------------
+
+Total displaced: 5
+
+Displaced candidates and their v4 ranks:
+  MP012                (DeNovo-Allo    ): v3 rank  78 → v4 rank 116 (penalty: 1)
+  MP017                (DeNovo-Allo    ): v3 rank  80 → v4 rank 117 (penalty: 1)
+  MP050                (DeNovo-Allo    ): v3 rank  70 → v4 rank 103 (penalty: 1)
+  Thioredoxin_050      (DeNovo-Ortho   ): v3 rank  73 → v4 rank 119 (penalty: 1)
+  Variant_25           (Lead-Opt       ): v3 rank  69 → v4 rank 102 (penalty: 0)
+
+================================================================================
+6. NEW CANDIDATES ENTERING TOP 100
+--------------------------------------------------------------------------------
+
+Total new entrants: 5
+
+New candidates in v4 top 100:
+  CTLA4_004            (DeNovo-Ortho   ): v4 rank  40 (penalty: 0, score: 0.413109)
+  CTLA4_010            (DeNovo-Ortho   ): v4 rank  38 (penalty: 0, score: 0.413109)
+  CTLA4_016            (DeNovo-Ortho   ): v4 rank  39 (penalty: 0, score: 0.413109)
+  Variant_01_HT2       (Lead-Opt       ): v4 rank  85 (penalty: 0, score: 0.124885)
+  Variant_01_HT5       (Lead-Opt       ): v4 rank  80 (penalty: 0, score: 0.148265)
