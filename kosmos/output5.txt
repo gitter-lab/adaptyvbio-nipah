@@ -1,0 +1,3 @@
+Tip
+The objective is appropriate and scientifically meaningful but needs practical fixes. Specify what external access the agent has (no live web/API access by default) or provide literature results and known binder sequences (leads) and any additional structural files. Clarify allowed computational tools and whether you can accept fewer than 100 designs or iterative deliverables (e.g., 10–20 rounds). Provide explicit assay acceptance criteria (target KD range, expression thresholds) and confirm whether guidence on avoiding sequence similarity (how to compute “10 aa from any published sequence”) can rely on a specific database (e.g., UniProt/PDB) you will supply or allow approximate similarity checks. With these clarifications the task becomes feasible.
+<Submit>
