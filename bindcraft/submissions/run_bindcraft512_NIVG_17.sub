@@ -1,0 +1,36 @@
+container_image = file:///staging/travi2/bindcraft_v152.sif
+
+executable = run_bindcraft_NIVG512.sh
+
+# Include other files that need to be transferred here.
+# https://htcondor.readthedocs.io/en/latest/man-pages/condor_submit.html#transfer_input_files
+transfer_input_files = BindCraft-1.5.2.tar.gz, NIVG512/
+transfer_output_remaps = "NIVG_output_$(Cluster)_$(Process).tgz = results/NIVG_output_$(Cluster)_$(Process).tgz"
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+SUB = 17
+log = logs/bc_$(Cluster)_$(Process)_sub$(SUB).log
+error = logs/bc_$(Cluster)_$(Process)_$(SUB).err
+output = logs/bc_$(Cluster)_$(Process)_$(SUB).out
+
+requirements = (HasCHTCStaging == true)
+
+request_gpus = 1
+request_cpus = 8
+request_memory = 64GB
+request_disk = 64GB
+
+# https://htcondor.readthedocs.io/en/latest/man-pages/condor_submit.html#gpus_minimum_runtime
+gpus_minimum_runtime = 11.8
+gpus_minimum_memory = 40GB
+# https://en.wikipedia.org/wiki/CUDA#GPUs_supported
+gpus_maximum_capability = 9.1
+
++WantGPULab = true
++GPUJobLength = "long"
+
+# Use environment variables to control the indices of the settings files to provide as input
+environment = "cluster=$(Cluster) process=$(Process) settings=7 filters=1 advanced=7 submission=$(SUB)"
+
+queue 1

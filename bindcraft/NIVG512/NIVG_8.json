@@ -1,0 +1,9 @@
+{
+    "design_path": "./NIVG_output/",
+    "binder_name": "NIVG",
+    "starting_pdb": "./2VSM.pdb",
+    "chains": "A",
+    "target_hotspot_residues": "A559,A579,A580,A581,A588,A504",
+    "lengths": [10, 150],
+    "number_of_final_designs": 20
+}
