@@ -1,0 +1,88 @@
+{
+  "PDB_File": {
+    "filename": "2VSM.pdb",
+    "file_size_bytes": 476928,
+    "total_lines": 5888,
+    "pdb_id": "2VSM",
+    "header_classification": "HYDROLASE",
+    "deposition_date": "25-APR-08",
+    "experimental_method": "X-RAY DIFFRACTION",
+    "resolution_angstroms": 1.8,
+    "title": "NIPAH VIRUS ATTACHMENT GLYCOPROTEIN IN COMPLEX WITH HUMAN CELL SURFACE RECEPTOR EPHRINB2",
+    "structure": {
+      "num_models": 1,
+      "num_chains": 2,
+      "chains": {
+        "A": {
+          "molecule": "HEMAGGLUTININ-NEURAMINIDASE",
+          "organism": "NIPAH VIRUS",
+          "fragment": "B-PROPELLER, EPHRIN BINDING DOMAIN, RESIDUES 188-602",
+          "ec_number": "3.2.1.18",
+          "total_residues": 917,
+          "protein_residues": 413,
+          "hetero_residues": 4,
+          "water_molecules": 500,
+          "total_atoms": 3815,
+          "protein_atoms": 3269,
+          "unique_amino_acids": 20
+        },
+        "B": {
+          "molecule": "EPHRIN-B2",
+          "organism": "HOMO SAPIENS",
+          "fragment": "RECEPTOR-BINDING DOMAIN, RESIDUES 27-170",
+          "total_residues": 343,
+          "protein_residues": 137,
+          "hetero_residues": 1,
+          "water_molecules": 205,
+          "total_atoms": 1323,
+          "protein_atoms": 1104,
+          "unique_amino_acids": 20
+        }
+      }
+    },
+    "refinement_statistics": {
+      "program": "REFMAC 5.2.0019",
+      "resolution_range_high": 1.8,
+      "resolution_range_low": 30.0,
+      "completeness_percent": 98.8,
+      "num_reflections": 52300,
+      "r_work": 0.152,
+      "r_free": 0.198,
+      "mean_b_factor": 11.79
+    },
+    "secondary_structure": {
+      "num_helices": 8,
+      "num_sheets": 7,
+      "total_strands": 39
+    },
+    "disulfide_bonds": 9,
+    "record_types": {
+      "ATOM": 4507,
+      "HETATM": 765,
+      "REMARK": 338,
+      "CONECT": 82,
+      "SEQRES": 43,
+      "SHEET": 39,
+      "HELIX": 8
+    }
+  },
+  "PDF_File": {
+    "filename": "Surface-Plasmon-Resonance-Adaptyv-Bio-Docs.pdf",
+    "file_size_bytes": 213333,
+    "description": "Documentation about Surface Plasmon Resonance (SPR) technology from Adaptyv Bio",
+    "content_type": "Technical documentation",
+    "extraction_status": "Partial - PDF library installation issues prevented full text extraction",
+    "extracted_metadata": {
+      "title": "Surface Plasmon Resonance (SPR)",
+      "source_url": "https://docs.adaptyvbio.com/",
+      "related_technologies": [
+        "BLI",
+        "nanodsf"
+      ],
+      "related_experiment_types": [
+        "binding"
+      ]
+    },
+    "notes": "Manual extraction revealed minimal readable text. Full extraction would require proper PDF parsing library."
+  }
+}

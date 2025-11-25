@@ -1,0 +1,9 @@
+Similar published sequence
+These sequences are too similar to published proteins and cannot be submitted.
+
+seq41
+AA Distance: 9
+Database: swissprot
+ID: P02751
+
+10 total • 10 included • 1 invalid

@@ -1,0 +1,33 @@
+Similar published sequence
+These sequences are too similar to published proteins and cannot be submitted.
+
+seq19
+AA Distance: 9
+Database: pdb
+ID: 6hpj_B
+seq20
+AA Distance: 9
+Database: swissprot
+ID: P02751
+seq21
+AA Distance: 9
+Database: proteinbase_public
+ID: radiant-moth-iron
+seq22
+AA Distance: 9
+Database: swissprot
+ID: P02751
+seq23
+AA Distance: 10
+Database: proteinbase_public
+ID: radiant-moth-iron
+seq25
+AA Distance: 9
+Database: swissprot
+ID: P02751
+seq26
+AA Distance: 10
+Database: proteinbase_public
+ID: radiant-moth-iron
+
+10 total • 10 included • 7 invalid
