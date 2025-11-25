@@ -27,7 +27,7 @@ Kosmos is an AI Scientist from Edison Scientific (https://arxiv.org/abs/2511.028
 Submission overview
 The designed sequences were generated using the Kosmos AI Scientist from Edison Scientific. Kosmos was provided a prompt describing the competition rules, the protein structure 2VSM.pdb, Adaptyv's description of Surface Plasmon Resonance from its website, and a request to return 100 ranked candidate designs. It produced a .csv file with 100 ranked amino acid sequences and various metrics it derived. The submitted sequences are the top-ranked sequences from this list that passed the submission validity filters, i.e., excluding those that are too similar to published proteins.
 
-The complete Kosmos prompt, output .csv file, generated report, and link to its shared results will be provided from https://github.com/gitter-lab/adaptyvbio-nipah.
+The complete Kosmos prompt, intermediate .ipynb notebooks, output .csv file, generated report, and link to its shared results are provided at https://github.com/gitter-lab/adaptyvbio-nipah.
 ```
 
 The submission results from https://proteinbase.com/collections/nipah-binder-competition-submission-1-qYFdXgOpyS were downloaded as `output5/proteinbase_collection_nipah-binder-competition-submission-1-qYFdXgOpyS.csv`
@@ -40,5 +40,6 @@ Links to the full Kosmos runs:
 - [prompt 1](https://platform.edisonscientific.com/kosmos/4f9aa24a-eab6-4dbd-8e10-6577e5fb95ce)
 - [prompt 5](https://platform.edisonscientific.com/kosmos/1209e2f5-15b3-4355-aff9-e8b6b08a6787)
 
+The final report is named `output5/kosmos_Adaptyv_Nipah_Binder_Competition_prompt_5.pdf`.
 Intermediate artifacts from the `prompt5` run used for the submission are also available in the `output5/intermediate` subdirectory.
 In some cases, the filename was prepended with `task<n>_` when it was too generic.
