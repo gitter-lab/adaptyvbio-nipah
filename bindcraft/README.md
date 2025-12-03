@@ -21,7 +21,7 @@ Environment variables controlled which BindCraft settings in the `NIVG` or `NIVG
 
 13. Same as 12, with mpnn_fix_interface= False. The mpnn checks keep failing with the selected interface.
 
-14. 
+14. Same as 2, with predict_initial_guess= True
 
 15. Default BindCraft filters and advanced settings. Interaction sites: [A559,A579,A580,A581,A588] (conservative), based on binding residue in the pdb literature and mpnn_fix_interface= False.
 
