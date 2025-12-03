@@ -5,7 +5,7 @@ Code and results for the 2025 [Adaptyv Bio Adaptyv Nipah Binder Competition](htt
 Our three person team made the following final submissions:
 - Tapan Ravi: BindCraft
 - Bryce Johnson: BindCraft plus a supervised model trained on ESM embeddings
-- Anthony Gitter: Kosmos AI scientist ([details](kosmos#adaptyv-submission-1))
+- Anthony Gitter: Kosmos AI scientist ([Proteinbase](https://proteinbase.com/collections/nipah-binder-competition-submission-1-qYFdXgOpyS), [details](kosmos#adaptyv-submission-1))
 
 ## Notes
 ### Potential leads
