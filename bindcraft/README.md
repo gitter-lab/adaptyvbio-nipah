@@ -24,7 +24,7 @@
    
 2. **Large-Scale Screening:** 666 successful BindCraft trajectories were generated and evaluated using Boltz2 to predict ipSAE scores.
 
-3. **Machine Learning-Based Selection:** A sequence classifier was developed to predict sequences likely to achieve ipSAE > 0.8 using ESM-C embeddings.
+3. **Machine Learning-Based Selection:** A sequence classifier was developed to predict sequences likely to achieve ipSAE > 0.8 using ESM-C (300 M params) embeddings.
 
 4. **Rational Mutagenesis:** Mutations were introduced in regions predicted to be less critical for binding (residues distant from the binding interface based on 3D structure analysis).
 
