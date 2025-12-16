@@ -19,9 +19,9 @@
 
 **Design Pipeline:**
 
-1. **Warm-Start BindCraft Generation:** Starting sequences were generated using a [customized BindCraft](https://github.com/gitter-lab/adaptyvbio-nipah/tree/main/bindcraft/BindCraft%20Warm%20start) implementation that employs a warm-start initialization strategy rather than standard random initialization:
+1. **Warm-Start BindCraft Generation:** Starting sequences were generated using a [customized BindCraft](BindCraft_warm_start) implementation that employs a warm-start initialization strategy rather than standard random initialization:
    - **Warm-Start Modification:** Initializes sequence logits biased toward a known binding sequence (z₀[i, a] = β·δ(a = a_known[i]) + ε).
-   - **Target Settings:** [1](https://github.com/gitter-lab/adaptyvbio-nipah/blob/main/bindcraft/NIVG512/NIVG_Warm_1.json) [2](https://github.com/gitter-lab/adaptyvbio-nipah/blob/main/bindcraft/NIVG512/NIVG_Warm_3.json)
+   - **Target Settings:** [1](NIVG512/NIVG_Warm_1.json), [2](NIVG512/NIVG_Warm_3.json)
    
 2. **Large-Scale Screening:** 666 successful BindCraft trajectories were generated and evaluated using Boltz2 to predict ipSAE scores.
 
@@ -75,4 +75,6 @@ Environment variables controlled which BindCraft settings in the `NIVG` or `NIVG
 
 2. Start with a wild-type antibody: Use the same coding V,D,J genes and rearrange the random substitutions.
 
-
+## Third-party materials
+The subdirectory `BindCraft_warm_start` contains a copy of the BindCraft [source code](https://github.com/martinpacesa/BindCraft) availabile under the [MIT license](https://github.com/martinpacesa/BindCraft/blob/main/LICENSE).
+Copyright (c) 2024 Martin Pacesa.
