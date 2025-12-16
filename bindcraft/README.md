@@ -19,8 +19,9 @@
 
 **Design Pipeline:**
 
-1. **Warm-Start BindCraft Generation:** Starting sequences were generated using a customized BindCraft implementation that employs a warm-start initialization strategy rather than standard random initialization:
+1. **Warm-Start BindCraft Generation:** Starting sequences were generated using a [customized BindCraft](https://github.com/gitter-lab/adaptyvbio-nipah/tree/main/bindcraft/BindCraft%20Warm%20start) implementation that employs a warm-start initialization strategy rather than standard random initialization:
    - **Warm-Start Modification:** Initializes sequence logits biased toward a known binding sequence (z₀[i, a] = β·δ(a = a_known[i]) + ε).
+   - **Target Settings:** [1](https://github.com/gitter-lab/adaptyvbio-nipah/blob/main/bindcraft/NIVG512/NIVG_Warm_1.json) [2](https://github.com/gitter-lab/adaptyvbio-nipah/blob/main/bindcraft/NIVG512/NIVG_Warm_3.json)
    
 2. **Large-Scale Screening:** 666 successful BindCraft trajectories were generated and evaluated using Boltz2 to predict ipSAE scores.
 
