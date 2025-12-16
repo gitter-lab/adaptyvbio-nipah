@@ -1,0 +1,12 @@
+{
+    "design_path": "./NIVG_output/",
+  "binder_name": "NiVG_ephrin_ws",
+    "starting_pdb": "./2VSM.pdb",
+    "chains": "A",
+    "target_hotspot_residues": "A240,A489,A531,A533",
+  "lengths": [100, 200],
+  "number_of_final_designs": 10,
+  
+  "warm_start_sequence": "IVLEPIYWNSSNSKFLPGQGLVLYPQIGDKLDIICPKVDSKTVGQYEYYKVYMVDKDQADRCTIKKENTPLLNCAKPDQDIKFTIKFQEFSPNLWGLEFQKNKDYYIISTSNGSLEGLDNQEGGVCQTRAMKILMKVGHH",
+  "warm_start_bias": 2.0
+}
