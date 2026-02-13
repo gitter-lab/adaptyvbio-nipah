@@ -7,6 +7,18 @@ Our three person team made the following final submissions:
 - Bryce Johnson: BindCraft plus a supervised model trained on ESM-C embeddings ([Proteinbase](https://proteinbase.com/collections/nipah-binder-competition-submission-3-P9UivyjCCJ), [details](bindcraft#submission-2))
 - Anthony Gitter: Kosmos AI scientist ([Proteinbase](https://proteinbase.com/collections/nipah-binder-competition-submission-1-qYFdXgOpyS), [details](kosmos#adaptyv-submission-1))
 
+## Results
+None of our submitted designs bound the target protein per the [wet lab results](https://proteinbase.com/collections/nipah-binder-competition-results).
+The Proteinbase links above provide wet lab results for each submitted design.
+In summary:
+
+| Team member     | Submitted | Tested | Expressed | Bound |
+|-----------------|-----------|--------|-----------|-------|
+| Tapan           | 4         | 4      | 2         | 0     |
+| Bryce           | 2         | 2      | 2         | 0     |
+| Anthony         | 10        | 10     | 8         | 0     |
+| **Total**       | 16        | 16     | 12        | 0     |
+
 ## Notes
 ### Potential leads
 - PDB [2VSM](https://www.rcsb.org/structure/2VSM): provided by Adaptyv, Nipah virus attachment glycoprotein in complex with human cell surface receptor ephrinB2
