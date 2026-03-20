@@ -1,4 +1,6 @@
 # Adaptyv Nipah Binder Competition
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19137187.svg)](https://doi.org/10.5281/zenodo.19137187)
+
 Code and results for the 2025 [Adaptyv Bio Adaptyv Nipah Binder Competition](https://proteinbase.com/competitions/adaptyv-nipah-competition)
 
 ## Submissions
